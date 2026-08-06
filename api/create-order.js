@@ -3,7 +3,7 @@ const Razorpay = require('razorpay');
 // Key Secret is read from an environment variable set in the Vercel
 // dashboard — it is NEVER written in this file or sent to the browser.
 const instance = new Razorpay({
-  key_id: 'rzp_live_TM5q34z7WI164s',
+  key_id: 'rzp_live_TMOyQgfsif3rQO',
   key_secret: process.env.RAZORPAY_KEY_SECRET,
 });
 
